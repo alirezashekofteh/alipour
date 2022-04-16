@@ -1,0 +1,1 @@
+c:\htdocs\derakhshi\laravel\resources\views\Front\landing\token3landing.blade.php

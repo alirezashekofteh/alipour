@@ -1,0 +1,22 @@
+[16-Apr-2022 18:44:33 UTC] PHP Fatal error:  Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/StreamOutput.php:79
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/Output.php(164): Symfony\Component\Console\Output\StreamOutput->doWrite()
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/Output.php(132): Symfony\Component\Console\Output\Output->write()
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(641): Symfony\Component\Console\Output\Output->writeln()
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException()
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(128): Symfony\Component\Console\Application->run()
+#5 phar:///opt/cpanel/composer/bin/composer/bin/composer(73): Composer\Console\Application->run()
+#6 /opt/cpanel/composer/bin/composer(29): require('phar:///opt/cpa...')
+#7 {main}
+  thrown in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/StreamOutput.php on line 79
+[16-Apr-2022 18:58:58 UTC] PHP Fatal error:  Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/StreamOutput.php:79
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/Output.php(164): Symfony\Component\Console\Output\StreamOutput->doWrite()
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/Output.php(132): Symfony\Component\Console\Output\Output->write()
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(641): Symfony\Component\Console\Output\Output->writeln()
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException()
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(128): Symfony\Component\Console\Application->run()
+#5 phar:///opt/cpanel/composer/bin/composer/bin/composer(73): Composer\Console\Application->run()
+#6 /opt/cpanel/composer/bin/composer(29): require('phar:///opt/cpa...')
+#7 {main}
+  thrown in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/StreamOutput.php on line 79

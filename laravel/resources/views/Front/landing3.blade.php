@@ -1,0 +1,1 @@
+c:\htdocs\derakhshi\laravel\resources\views\Front\landing3.blade.php

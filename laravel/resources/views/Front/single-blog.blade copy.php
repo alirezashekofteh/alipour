@@ -1,0 +1,1 @@
+c:\htdocs\derakhshi\laravel\resources\views\Front\single-blog.blade copy.php
